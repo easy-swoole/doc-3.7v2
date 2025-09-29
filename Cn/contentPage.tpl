@@ -145,7 +145,6 @@
     <aside class="sideBar">{$sideBar}</aside>
     <section class="mainContent">
         <div class="content markdown-body">{$page.html}</div>
-        <div class="right-menu" id="right-menu"></div>
     </section>
 </div>
 

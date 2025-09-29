@@ -12,3 +12,7 @@
 - HTTP服务
   - [控制器映射规则](/Http/staticRoute.md)
   - [控制器](/Http/controller.md)
+  - [请求对象](/Http/request.md)
+  - [上传文件对象](/Http/uploadFile.md)
+  - [响应对象](/Http/response.md)
+  - [常见问题](/Http/problem.md)

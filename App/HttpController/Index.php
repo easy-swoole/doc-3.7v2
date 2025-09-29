@@ -5,6 +5,7 @@ namespace App\HttpController;
 
 
 use EasySwoole\Http\AbstractInterface\Controller;
+use EasySwoole\Http\Message\Status;
 use EasySwoole\ParserDown\ParserDown;
 
 class Index extends Controller
@@ -14,6 +15,13 @@ class Index extends Controller
     {
         $file = EASYSWOOLE_ROOT.'/Cn/index.html';
         $this->response()->write(file_get_contents($file));
+    }
+
+    function test()
+    {
+        $this->writeJson(Status::CODE_OK, [
+            'timestamp'=>time()
+        ],'get timestamp success');
     }
 
 
